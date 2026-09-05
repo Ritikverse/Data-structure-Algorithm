@@ -17,10 +17,6 @@ class Solution {
                 stack.push(c);
             }
         }
-        String str ="";
-        while(!stack.isEmpty()){
-            str = str + stack.pop();
-        }
-        return str.length();
+        return stack.size();
     }
 }
